@@ -1,0 +1,24 @@
+{
+  "name": "auto-test",
+  "version": "1.0.0",
+  "description": "just for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-buongiorno/for_test_purpose.git"
+  },
+  "author": "Damian Grys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-buongiorno/for_test_purpose/issues"
+  },
+  "homepage": "https://github.com/mr-buongiorno/for_test_purpose#readme",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  }
+}
